@@ -1,4 +1,4 @@
-package programming.problems;
+package programming.problems.quicksort;
 
 import java.util.Random;
 
