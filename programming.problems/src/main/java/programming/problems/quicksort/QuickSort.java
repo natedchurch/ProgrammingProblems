@@ -91,11 +91,9 @@ public class QuickSort {
 
 	public static void printArr(int[] numbers, int leftIx, int rightIx, int pivotIx, int depth) {
 		StringBuffer sb = new StringBuffer();
+		sb.append("Depth: " + depth + " [ ");
 		
 		for (int i = leftIx; i <= rightIx; i++) {
-			if (i == leftIx) {
-				sb.append("Depth: " + depth + " [ ");
-			}
 			
 			if (i == pivotIx) {
 				sb.append("**");
